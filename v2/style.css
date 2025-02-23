@@ -1,0 +1,11 @@
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+	.fullscreen-label {
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 1919px), (max-height: 1079px) {
+	.fullscreen-label {
+		visibility: hidden;
+	}
+}
